@@ -82,3 +82,17 @@ h1 {
   width: calc(20% - 16px); 
 }
 
+@media screen and (max-width: 360px) {
+  .album-card {
+    width: 100% !important;
+  }
+
+  .album-title {
+    font-size: 14px;
+  }
+
+  .album-artist,
+  .album-name {
+    font-size: 12px;
+  }
+}
