@@ -50,3 +50,16 @@
 .delete-btn:hover {
   background-color: #c0392b;
 }
+
+@media screen and (max-width: 768px) {
+  .album-card {
+    width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .album-card {
+    width: 100% !important;
+  }
+}
+
